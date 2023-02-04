@@ -12,7 +12,7 @@ const styles = {
 
 export default function FooterTabs() {
     return (
-        <div className='bg-primary p-2 d-flex justify-content-center'>
+        <footer className='footer bg-primary p-2 d-flex justify-content-center'>
             <ul>
                 <a href='https://github.com/ryan-young17' target="_blank">
                     <img style={styles.image} src={gitHub} alt='GitHub Logo'></img>
@@ -24,6 +24,6 @@ export default function FooterTabs() {
                     <img style={styles.image} src={twitter} alt='Twitter Logo'></img>
                 </a>
             </ul>
-        </div>
+        </footer>
     );
 };

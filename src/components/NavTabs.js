@@ -4,7 +4,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg bg-dark p-3">
       <div className="container-fluid m-3">
-        <a className="navbar-brand fs-1 text-light" href="#">Ryan Young  &nbsp; | </a>
+        <a className="navbar-brand fs-1 text-light" href="#about">Ryan Young  &nbsp; | </a>
         <button className="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

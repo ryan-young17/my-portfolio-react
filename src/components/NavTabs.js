@@ -2,9 +2,9 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark p-3">
+    <nav className="navbar navbar-expand-lg bg-light p-3">
       <div className="container-fluid m-3">
-        <a className="navbar-brand fs-1 text-light" href="#about">Ryan Young  &nbsp; | </a>
+        <a className="navbar-brand fs-1 text-dark" href="#about">Ryan Young  &nbsp; | </a>
         <button className="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -14,7 +14,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               <a
                 href="#about"
                 onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active text-light fs-5' : 'nav-link text-light fs-5'}
+                className={currentPage === 'About' ? 'nav-link active text-dark fs-5' : 'nav-link text-dark fs-5'}
               >
                 About
               </a>
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               <a
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active text-light fs-5' : 'nav-link text-light fs-5'}
+                className={currentPage === 'Portfolio' ? 'nav-link active text-dark fs-5' : 'nav-link text-dark fs-5'}
               >
                 Portfolio
               </a>
@@ -32,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active text-light fs-5' : 'nav-link text-light fs-5'}
+                className={currentPage === 'Resume' ? 'nav-link active text-dark fs-5' : 'nav-link text-dark fs-5'}
               >
                 Resume
               </a>
@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active text-light fs-5' : 'nav-link text-light fs-5'}
+                className={currentPage === 'Contact' ? 'nav-link active text-dark fs-5' : 'nav-link text-dark fs-5'}
               >
                 Contact
               </a>

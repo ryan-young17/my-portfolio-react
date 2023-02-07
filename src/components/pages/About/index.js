@@ -11,14 +11,14 @@ const styles = {
 export default function About() {
   return (
     <div>
-      <h1 className='m-5 d-flex justify-content-center display-3'>About Me</h1>
+      <h1 className='m-5 d-flex justify-content-center display-3 text-light'>About Me</h1>
       <div className='container'>
         <div className='row justify-content-center m-3'>
           <div className='col-12 col-md-4 col-lg-3 mb-3'>
             <img className="img-fluid" style={styles.image} src={image} alt='Image of Ryan Young'></img>
           </div>
           <div className='col-12 col-md-8 col-lg-9'>
-            <p>
+            <p className='text-light'>
               Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
               Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
               mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

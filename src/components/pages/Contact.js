@@ -45,20 +45,17 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <h1 className='ms-5 mt-5 mb-3 display-3'>Contact</h1>
-      <div className='ms-5 me-5'>
+    <div className='container'>
+      <h1 className='ms-5 mt-5 mb-3 display-3 text-light d-flex justify-content-center'>Contact</h1>
+      <div className='m-5'>
         <form className='needs-validation'>
-          <div className="mb-3 form-outline w-50">
-            <label for="name" className="form-label">Name</label>
+          <div className="mb-3 form-outline">
             <input className="form-control" name='name' value={name} type="text" placeholder="Name" onChange={handleInputChange} required/>
           </div>
-          <div class="mb-3 form-outline w-50">
-            <label for="exampleInputEmail1" className="form-label">Email address</label>
+          <div class="mb-3 form-outline">
             <input className="form-control" name='email' value={email} type="email" placeholder="Email" onChange={handleInputChange} required/>
           </div>
-          <div className="mb-3 form-outline w-50">
-            <label className="form-label">Message</label>
+          <div className="mb-3 form-outline">
             <textarea className="form-control" name='message' value={message} type="text" placeholder="Message" onChange={handleInputChange} required/>
           </div>
           {errMessage && (

@@ -11,7 +11,7 @@ export default function Resume() {
           <a className='text-light text-decoration-none' href={pdf} download>Download Here</a>
         </button>
       </div>
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center mb-5'>
         <img className='border border-2 border-secondary img-fluid' src={image} width='850px' height='1100px' alt='Image of resume'></img>
       </div>
     </div>

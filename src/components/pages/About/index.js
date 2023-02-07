@@ -18,13 +18,8 @@ export default function About() {
             <img className="img-fluid" style={styles.image} src={image} alt='Image of Ryan Young'></img>
           </div>
           <div className='col-12 col-md-8 col-lg-9'>
-            <p className='text-light'>
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-              mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-              lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-              imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-              in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+            <p className='text-light p-5'>
+            I am a full-stack web developer with experience in various programming languages such as HTML, CSS, JavaScript, SQL, NoSQL, etc., and a passion for web design. I also have a background in marketing, writing, and graphic design, giving me an advanced perspective on web applications UI/UX. Blending these skills gives me the unique ability to understand both design and client-expectations, and how they coincide with the structure of the application. I look forward to any future projects, opportunities, and collaborations.
             </p>
           </div>
         </div>

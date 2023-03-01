@@ -66,6 +66,7 @@ export default function Portfolio() {
               <p className="card-text text-dark">This application was created to help users create a webpage with their team's information using their local terminal.</p>
             </div>
             <div className="card-body bg-secondary">
+              <a href="https://ryan-young17.github.io/team-profile-generator/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
               <a href="https://github.com/ryan-young17/team-profile-generator" className="btn btn-dark text-light mb-1">Repo</a>
             </div>
           </div>

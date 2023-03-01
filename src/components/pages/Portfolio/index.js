@@ -5,6 +5,7 @@ import teamImage from './assets/teamGenerator.png';
 import blogImage from './assets/techBlog.png';
 import todoImage from './assets/todoScheduler.png';
 import weatherImage from './assets/weatherDash.png';
+import duetImage from './assets/duet.png';
 
 export default function Portfolio() {
   return (
@@ -24,13 +25,14 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="col card m-1 border-dark bg-dark">
-            <img src={employeeImage} alt='Screenshot of The Tech Blog site.' height='200' className="card-img-top"></img>
+            <img src={duetImage} alt='Screenshot of Duet site.' height='200' className="card-img-top"></img>
             <div className="card-body bg-secondary">
-              <h5 className="card-title text-light"><strong>Employee Tracker</strong></h5>
-              <p className="card-text text-dark">The Employee Tracker application creates an easy and accessible way for a user to view various information from a workplace database.</p>
+              <h5 className="card-title text-light"><strong>Duet Dating App</strong></h5>
+              <p className="card-text text-dark">Duet is a new way to connect with people across the world through a love of common music interests or a pursuit of something new.</p>
             </div>
             <div className="card-body bg-secondary">
-              <a href="https://github.com/ryan-young17/employee-tracker" className="btn btn-dark text-light m1-2">Repo</a>
+              <a href="https://frozen-garden-71099.herokuapp.com/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
+              <a href="https://github.com/ryan-young17/duet" className="btn btn-dark text-light mb-1">Repo</a>
             </div>
           </div>
           <div className="col card m-1 border-dark bg-dark">

@@ -17,6 +17,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>The Tech Blog</strong></h5>
               <p className="card-text text-dark">The Tech Blog is a CMS-style blog site where users can create blog posts and interact with other blog posts by commenting and sharing opinions.</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, Express, Sequelize, Node, Handlebars</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://thawing-gorge-80777.herokuapp.com/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
@@ -28,6 +29,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>Duet Dating App</strong></h5>
               <p className="card-text text-dark">Duet is a new way to connect with people across the world through a love of common music interests or a pursuit of something new.</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, Express, React, MongoDB, Node</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://frozen-garden-71099.herokuapp.com/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
@@ -39,6 +41,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>Weather Dashboard</strong></h5>
               <p className="card-text text-dark">The Weather Dashboard application allows a user to input any major city in the search form and receive that city's current weather, and its five-day forecast.</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, HTML Open Weather API</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://ryan-young17.github.io/weather-forecast/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
@@ -52,6 +55,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>The Note Taker</strong></h5>
               <p className="card-text text-dark">This application allows users to input notes with a title and a description, while also allowing them to save for future review.</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, Express, Node</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://whispering-beyond-64371.herokuapp.com/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
@@ -63,6 +67,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>Team Generator</strong></h5>
               <p className="card-text text-dark">This application was created to help users create a webpage with their team's information using their local terminal.</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, Node, HTML</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://ryan-young17.github.io/team-profile-generator/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>
@@ -74,6 +79,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>The Todo Scheduler</strong></h5>
               <p className="card-text text-dark">This work-day scheduler allows a user to input their daily to-dos for each hour of the day with an option to save for later review.</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, jQuery, HTML, CSS</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://ryan-young17.github.io/todo-schedule/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>

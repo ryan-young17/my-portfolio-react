@@ -41,7 +41,7 @@ export default function Portfolio() {
             <div className="card-body bg-secondary">
               <h5 className="card-title text-light"><strong>Weather Dashboard</strong></h5>
               <p className="card-text text-dark">The Weather Dashboard application allows a user to input any major city in the search form and receive that city's current weather, and its five-day forecast.</p>
-              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, HTML Open Weather API</p>
+              <p className="card-text text-dark"><strong>Tech: </strong>JavaScript, HTML, Open Weather API</p>
             </div>
             <div className="card-body bg-secondary">
               <a href="https://ryan-young17.github.io/weather-forecast/" className="btn btn-dark text-light mb-1 me-2">Live Site</a>

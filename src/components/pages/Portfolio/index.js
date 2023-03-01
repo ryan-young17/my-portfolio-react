@@ -1,5 +1,4 @@
 import React from 'react';
-import employeeImage from './assets/employeeTracker.png';
 import noteImage from './assets/noteTaker.png';
 import teamImage from './assets/teamGenerator.png';
 import blogImage from './assets/techBlog.png';
